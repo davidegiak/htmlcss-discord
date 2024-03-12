@@ -117,6 +117,13 @@ header {
     height: 100%;
 }
 
+.ty5 {
+    transform: translateY(3px);
+}
+
+.mirror-x {
+    transform: scaleY(-1);
+}
 
 .white {
     background-color: white;
@@ -126,7 +133,7 @@ header {
 }
 
 .gray {
-    background-color: lightgray;
+    background-color: #f6f6f6;
     width: 100%;
 }
 
@@ -146,17 +153,41 @@ header {
     padding-top: 2rem;
 }
 
+svg.mirror-x {
+    padding-bottom: 0;
+}
+
 .big-square {
     width: 60%;
-    height: 500px;
-    background-color: green;
-    border: 2px dotted black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.befor-footer {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    background-color: #f6f6f6;
+}
+
+.befor-footer > img {
+    transform: translateY(2rem);
+}
+
+.btn-blue {
+    background-color: #7289da;
+    border-color: #7289da;
+    color: white;
 }
 
 /***********************FOOTER*************************/
 
 footer {
-    background-color: black;
+    background-color: #23272a;
 }
 
 .piedi {
