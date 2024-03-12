@@ -1,0 +1,148 @@
+
+/***********************DEFAULT SETTINGS*************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+/*****************************HEADER***************************/
+header {
+    background-color: #add8e6;
+    padding-bottom: 0.5rem;
+}
+
+.header {
+    background-color: #add8e6;
+    width: 100%;
+}
+
+.top-bar {
+    background-color: burlywood;
+    border: 3px black dotted;
+    height: 2rem;
+    
+}
+
+.banner {
+    background-color: #00008b;
+    width: 100%;
+    padding: 2rem;
+}
+
+.banner-caption {
+    background-color: #ee82ee;
+    width: 50%;
+    height: 20rem;   
+    border: 2px dotted black;
+}
+
+/****************************MENU*****************************/
+
+
+.logo {
+    width: 20%;
+}
+
+.menu {  
+    width: 30%; 
+    text-align: center;
+    vertical-align: middle;
+    padding: 1px 0 0 0;
+}
+
+.login {
+    width: 20%;
+    text-align: end;
+}
+
+.link-menu {
+    text-decoration: none;
+}
+
+/********************************MAIN*********************/
+
+.white {
+    background-color: white;
+    width: 100%;
+}
+
+.gray {
+    background-color: lightgray;
+    width: 100%;
+}
+
+.blue {
+    background-color: #1e90ff;
+    width: 40%;
+    height: 400px;
+    border: 2px dotted black;
+}
+
+.rosa {
+    background-color: pink;
+    width: 20%;
+    height: 400px;
+    border: 2px dotted black;
+}
+
+.big-square {
+    width: 60%;
+    height: 500px;
+    background-color: green;
+    border: 2px dotted black;
+}
+
+/***********************FOOTER*************************/
+
+footer {
+    background-color: black;
+}
+
+.piedi {
+    width: 60%;
+    padding: 0;
+}
+
+.red {
+    min-width: 30%;
+    height: 400px;
+    background-color: red;
+    border: 2px dotted white;
+}
+
+.green {
+    background-color: greenyellow;
+    width: 40%;
+    height: 400px;
+    border: 2px dotted white;
+}
+
+.container {
+    border-bottom: 1px solid white;
+}
+
+.end {
+    background-color: mediumaquamarine;
+    width: 60%;
+    justify-content: space-between;
+    border: 2px dotted black;
+}
+
+button {
+    border: 2px dotted black;
+}
+
+.logo-small {
+    border: 2px dotted black;
+}
+
