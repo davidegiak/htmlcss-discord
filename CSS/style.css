@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    outline: 1px solid red;
 }
 
 .flex{
@@ -120,6 +121,8 @@ header {
 .white {
     background-color: white;
     width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 .gray {
@@ -132,11 +135,15 @@ header {
     height: 400px;
 }
 
-.rosa {
-    background-color: pink;
+.cap-title {
     width: 20%;
     height: 400px;
-    border: 2px dotted black;
+    letter-spacing: 1px;
+}
+
+.caption-title {
+    margin-bottom: 1.2rem;
+    padding-top: 2rem;
 }
 
 .big-square {
